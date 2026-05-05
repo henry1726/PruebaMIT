@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.pruebamit.presentation.profile.ProfileFragment"
+        android:label="Perfil"/>
+
+    <fragment
+        android:id="@+id/cardsFragment"
+        android:name="com.example.pruebamit.presentation.cards.CardsFragment"
+        android:label="Mis Tarjetas"/>
+
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.pruebamit.presentation.payment.PaymentFragment"
+        android:label="Pagar"/>
+
+    <fragment
+        android:id="@+id/movementsFragment"
+        android:name="com.example.pruebamit.presentation.movements.MovementsFragment"
+        android:label="Movimientos"/>
+
+</navigation>
